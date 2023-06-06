@@ -12,3 +12,11 @@ Utilizar o botao esquerdo para performar as ações
 
 ## Observação
 Contém uma área específica localizada abaixo de "vidas" para fazer a troca de skin do personagem.
+
+## Prints
+
+![Tela inicial] (https://raw.githubusercontent.com/strazzit/ProjetoIntegrador01-2023/main/screenshots/1.jpg)
+
+![Tela para selecionar skins] (https://raw.githubusercontent.com/strazzit/ProjetoIntegrador01-2023/main/screenshots/2.jpg)
+
+![Tela durante o jogo] (https://raw.githubusercontent.com/strazzit/ProjetoIntegrador01-2023/main/screenshots/3.jpg)
