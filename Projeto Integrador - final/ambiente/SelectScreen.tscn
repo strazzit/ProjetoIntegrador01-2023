@@ -1,0 +1,171 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://fonts/flappyfont_48.tres" type="DynamicFont" id=1]
+[ext_resource path="res://assetsPROJETO/textures/background.png" type="Texture" id=2]
+[ext_resource path="res://assetsPROJETO/textures/personagem3.atlastex" type="Texture" id=3]
+[ext_resource path="res://assetsPROJETO/textures/personagem2.atlastex" type="Texture" id=4]
+[ext_resource path="res://assetsPROJETO/textures/personagem1.atlastex" type="Texture" id=5]
+[ext_resource path="res://ambiente/SelectScreen.gd" type="Script" id=6]
+[ext_resource path="res://assetsPROJETO/textures/personagem4.atlastex" type="Texture" id=7]
+[ext_resource path="res://assetsPROJETO/textures/personagem7.atlastex" type="Texture" id=8]
+[ext_resource path="res://assetsPROJETO/textures/personagem8.atlastex" type="Texture" id=9]
+[ext_resource path="res://assetsPROJETO/textures/personagem5.atlastex" type="Texture" id=10]
+[ext_resource path="res://assetsPROJETO/audio/botao_personagem.wav" type="AudioStream" id=11]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 6 )
+
+[node name="Background" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+centered = false
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+margin_top = 170.0
+margin_right = 480.0
+margin_bottom = 205.0
+custom_fonts/font = ExtResource( 1 )
+text = "Escolha o Personagem"
+align = 1
+valign = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+margin_top = 209.0
+margin_right = 480.0
+margin_bottom = 444.0
+alignment = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/HBoxContainer"]
+margin_left = 32.0
+margin_right = 141.0
+margin_bottom = 235.0
+custom_constants/margin_right = 30
+custom_constants/margin_top = 100
+custom_constants/margin_left = 30
+custom_constants/margin_bottom = 100
+
+[node name="amareloButton" type="TextureButton" parent="VBoxContainer/HBoxContainer/MarginContainer"]
+margin_left = 30.0
+margin_top = 100.0
+margin_right = 79.0
+margin_bottom = 135.0
+texture_normal = ExtResource( 5 )
+
+[node name="MarginContainer2" type="MarginContainer" parent="VBoxContainer/HBoxContainer"]
+margin_left = 145.0
+margin_right = 255.0
+margin_bottom = 235.0
+custom_constants/margin_right = 30
+custom_constants/margin_top = 100
+custom_constants/margin_left = 30
+custom_constants/margin_bottom = 100
+
+[node name="AzulButton" type="TextureButton" parent="VBoxContainer/HBoxContainer/MarginContainer2"]
+margin_left = 30.0
+margin_top = 100.0
+margin_right = 80.0
+margin_bottom = 135.0
+texture_normal = ExtResource( 4 )
+
+[node name="MarginContainer3" type="MarginContainer" parent="VBoxContainer/HBoxContainer"]
+margin_left = 259.0
+margin_right = 358.0
+margin_bottom = 235.0
+custom_constants/margin_right = 30
+custom_constants/margin_top = 100
+custom_constants/margin_left = 30
+custom_constants/margin_bottom = 100
+
+[node name="AngleButton" type="TextureButton" parent="VBoxContainer/HBoxContainer/MarginContainer3"]
+margin_left = 30.0
+margin_top = 100.0
+margin_right = 69.0
+margin_bottom = 135.0
+texture_normal = ExtResource( 3 )
+
+[node name="MarginContainer4" type="MarginContainer" parent="VBoxContainer/HBoxContainer"]
+margin_left = 362.0
+margin_right = 448.0
+margin_bottom = 235.0
+custom_constants/margin_right = 30
+custom_constants/margin_top = 100
+custom_constants/margin_left = 30
+custom_constants/margin_bottom = 100
+
+[node name="marioButton" type="TextureButton" parent="VBoxContainer/HBoxContainer/MarginContainer4"]
+margin_left = 30.0
+margin_top = 100.0
+margin_right = 56.0
+margin_bottom = 135.0
+texture_normal = ExtResource( 7 )
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
+margin_top = 448.0
+margin_right = 480.0
+margin_bottom = 683.0
+alignment = 1
+
+[node name="Container" type="MarginContainer" parent="VBoxContainer/HBoxContainer2"]
+margin_left = 79.0
+margin_right = 172.0
+margin_bottom = 235.0
+custom_constants/margin_right = 30
+custom_constants/margin_top = 100
+custom_constants/margin_left = 30
+custom_constants/margin_bottom = 100
+
+[node name="angleAmareloButton" type="TextureButton" parent="VBoxContainer/HBoxContainer2/Container"]
+margin_left = 30.0
+margin_top = 100.0
+margin_right = 63.0
+margin_bottom = 135.0
+texture_normal = ExtResource( 10 )
+
+[node name="MarginContainer2" type="MarginContainer" parent="VBoxContainer/HBoxContainer2"]
+margin_left = 176.0
+margin_right = 286.0
+margin_bottom = 235.0
+custom_constants/margin_right = 30
+custom_constants/margin_top = 100
+custom_constants/margin_left = 30
+custom_constants/margin_bottom = 100
+
+[node name="VermelhoButton" type="TextureButton" parent="VBoxContainer/HBoxContainer2/MarginContainer2"]
+margin_left = 30.0
+margin_top = 100.0
+margin_right = 80.0
+margin_bottom = 135.0
+texture_normal = ExtResource( 9 )
+
+[node name="MarginContainer3" type="MarginContainer" parent="VBoxContainer/HBoxContainer2"]
+margin_left = 290.0
+margin_right = 400.0
+margin_bottom = 235.0
+custom_constants/margin_right = 30
+custom_constants/margin_top = 100
+custom_constants/margin_left = 30
+custom_constants/margin_bottom = 100
+
+[node name="pretoButton" type="TextureButton" parent="VBoxContainer/HBoxContainer2/MarginContainer3"]
+margin_left = 30.0
+margin_top = 100.0
+margin_right = 80.0
+margin_bottom = 135.0
+texture_normal = ExtResource( 8 )
+
+[node name="AudioBotao" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 11 )
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/MarginContainer/amareloButton" to="." method="_on_amareloButton_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/MarginContainer2/AzulButton" to="." method="_on_AzulButton_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/MarginContainer3/AngleButton" to="." method="_on_AngleButton_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/MarginContainer4/marioButton" to="." method="_on_marioButton_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer2/Container/angleAmareloButton" to="." method="_on_angleAmareloButton_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer2/MarginContainer2/VermelhoButton" to="." method="_on_VermelhoButton_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer2/MarginContainer3/pretoButton" to="." method="_on_pretoButton_pressed"]

@@ -1,0 +1,61 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/sprite_cutter/AtlasScene.gd" type="Script" id=1]
+[ext_resource path="res://assetsPROJETO/textures/sprites.png" type="Texture" id=2]
+
+[node name="AtlasScene" type="Node"]
+script = ExtResource( 1 )
+destination_path = "res://assetsPROJETO/textures"
+
+[node name="personagem1" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 52.4351, 276.315, 49.7781, 34.8623 )
+
+[node name="personagem2" type="Sprite" parent="."]
+position = Vector2( -1, 50 )
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 51.0356, 28.1458, 50.8853, 35.5419 )
+
+[node name="personagem3" type="Sprite" parent="."]
+position = Vector2( -1, 98 )
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 52.3543, 343.135, 39.7736, 35.556 )
+
+[node name="personagem4" type="Sprite" parent="."]
+position = Vector2( -3, 145 )
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 61.2936, 477.103, 26.5461, 32.5763 )
+
+[node name="personagem5" type="Sprite" parent="."]
+position = Vector2( -4, 194 )
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 64.2367, 411.011, 33.0639, 31.9604 )
+
+[node name="personagem6" type="Sprite" parent="."]
+position = Vector2( -4, 236 )
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 54.4923, 216.885, 50.1289, 36.077 )
+
+[node name="personagem7" type="Sprite" parent="."]
+position = Vector2( -3, 273 )
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 53.1797, 151.511, 50.4106, 35.3993 )
+
+[node name="personagem8" type="Sprite" parent="."]
+position = Vector2( -3, 316 )
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 54.4352, 86.4126, 50.2776, 35.3937 )
+
+[node name="iconeLoja" type="Sprite" parent="."]
+position = Vector2( -2, 366 )
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 523, 342, 32, 33 )

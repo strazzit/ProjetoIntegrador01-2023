@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://fonts/flappyfont_48.tres" type="DynamicFont" id=1]
+[ext_resource path="res://script_pontuacao.gd" type="Script" id=2]
+
+[node name="HUD_vidas" type="CanvasLayer"]
+
+[node name="Control" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Label" type="Label" parent="Control"]
+margin_left = 17.0
+margin_top = 52.0
+margin_right = 117.0
+margin_bottom = 107.0
+custom_fonts/font = ExtResource( 1 )
+text = "Vidas:"
+
+[node name="pontuacao" type="Label" parent="Control"]
+margin_left = 129.0
+margin_top = 53.0
+margin_right = 169.0
+margin_bottom = 108.0
+custom_fonts/font = ExtResource( 1 )
+text = "0"
+align = 1
+valign = 1
+script = ExtResource( 2 )
