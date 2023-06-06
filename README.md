@@ -8,7 +8,7 @@ Projeto integrador desenvolvido no Godot e realizado no 1º semestre de 2023 ten
 - Quando aberto no Godot, apertar F5 para executar o jogo
 
 ## Controles
-Utilizar o botao esquerdo para performar as ações
+Utilizar o botao esquerdo do mouse para performar as ações
 
 ## Observação
 Contém uma área específica localizada abaixo de "vidas" para fazer a troca de skin do personagem.
