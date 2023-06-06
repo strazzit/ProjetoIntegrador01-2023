@@ -13,3 +13,11 @@ Utilizar o botao esquerdo para performar as ações
 ## Observação
 Contém uma área específica localizada abaixo de "vidas" para fazer a troca de skin do personagem.
 
+## Prints
+
+![1](https://github.com/strazzit/ProjetoIntegrador01-2023/assets/92820788/938ab287-e2b0-47e6-9c2a-cb482821096e)
+
+![2](https://github.com/strazzit/ProjetoIntegrador01-2023/assets/92820788/878e5034-6583-429e-8837-399e2a8447cc)
+
+![3](https://github.com/strazzit/ProjetoIntegrador01-2023/assets/92820788/7b0ec5ba-a3c2-48c4-b885-9cf18744c0f6)
+
