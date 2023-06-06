@@ -15,8 +15,8 @@ Contém uma área específica localizada abaixo de "vidas" para fazer a troca de
 
 ## Prints
 
-! [Tela inicial] (https://raw.githubusercontent.com/strazzit/ProjetoIntegrador01-2023/main/screenshots/1.png)
+![Tela inicial] (https://raw.githubusercontent.com/strazzit/ProjetoIntegrador01-2023/main/screenshots/1.png)
 
-! [Seleção de skins] (https://raw.githubusercontent.com/strazzit/ProjetoIntegrador01-2023/main/screenshots/2.png)
+![Seleção de skins] (https://raw.githubusercontent.com/strazzit/ProjetoIntegrador01-2023/main/screenshots/2.png)
 
-! [Tela ao jogar] (https://raw.githubusercontent.com/strazzit/ProjetoIntegrador01-2023/main/screenshots/3.png)
+![Tela ao jogar] (https://raw.githubusercontent.com/strazzit/ProjetoIntegrador01-2023/main/screenshots/3.png)
