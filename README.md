@@ -6,3 +6,8 @@ Para execução do mesmo via Godot:
 - Clicar em Open
 - Clicar em Import & Edit 
 - Quando aberto no Godot, apertar F5 para executar o jogo
+
+
+Utilizar o botao esquerdo para performar as ações no jogo
+
+Contém uma área específica localizada abaixo de "vidas" para fazer a troca de skin do personagem.
