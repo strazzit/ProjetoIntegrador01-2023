@@ -7,6 +7,12 @@ Projeto integrador desenvolvido no Godot e realizado no 1º semestre de 2023 ten
 - Clicar em Import & Edit 
 - Quando aberto no Godot, apertar F5 para executar o jogo
 
+
+## Como executar o jogo de maneira online
+- Abrir o jogo através do link https://strazzit.itch.io/projeto-integrador-012023
+- Clicar em Run game (talvez contenha um bug visual por causa da plataforma)
+
+
 ## Controles
 Utilizar o botao esquerdo do mouse para performar as ações
 
